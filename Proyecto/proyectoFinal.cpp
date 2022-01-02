@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "areas.h"
+#include "areas.h" //libreria para areas
 
 int main(){
 	

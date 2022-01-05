@@ -1,4 +1,4 @@
-//Funciones para calcular areas// //Adolfo//
+//Funciones para calcular areas// 
 
 float areaCuadrado(float l)
 {
@@ -18,9 +18,27 @@ float areaCirculo(float pi, float radio)
 	return (pi * pow(radio, 2));
 }
 
-//funciones para volumenes// //Mario//
+//funciones para volumenes//
 
-//funciones para calcular distancias// //Eduardo//
+float volumenCubo(float lCubo)
+{
+	return (pow(lCubo, 3));
+}
+float volumenCilindro(float aBase, float hCilindro)
+{
+	return (aBase * hCilindro);
+}
+float volumenEsfera(float rEsfera)
+{
+	float pi = 3.1416;
+	return (4 / 3 * (pi * pow(rEsfera, 3)));
+}
+float volumenPrisma(float lPrisma, float wPrisma, float hPrisma)
+{
+	return (lPrisma * wPrisma * hPrisma);
+}
+
+//funciones para calcular distancias//
 
 float distanciaCuadrado(float l)
 {
@@ -30,9 +48,9 @@ float distanciaRectangulo(float b, float h)
 {
 	return ((b + b) + (h + h));
 }
-float distanciaTriangulo(float ladoTriangulo, float baseTriangulo, float alturaTringulo)
+float distanciaTriangulo(float lTriangulo, float baseTriangulo, float alturaTringulo)
 {
-	return (ladoTriangulo + baseTriangulo + alturaTringulo);
+	return (lTriangulo + baseTriangulo + alturaTringulo);
 }
 float distanciaCirculo(float pi, float radio)
 {

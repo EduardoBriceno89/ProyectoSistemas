@@ -67,7 +67,8 @@ int main()
 
 				break;
 			default:
-				printf("La opcion no es correcta");
+				printf("La opcion no es correcta\n");
+				break;
 			}
 			break;
 		}
@@ -115,6 +116,7 @@ int main()
 				break;
 
 			default:
+				printf("La opcion no es correcta\n");
 				break;
 			}
 			break;
@@ -163,6 +165,7 @@ int main()
 				printf("El perimetro del Circulo es de: %.2f cm\n\n\n", distanciaCirculo(pi, radio));
 
 			default:
+				printf("La opcion no es correcta\n");
 				break;
 			}
 

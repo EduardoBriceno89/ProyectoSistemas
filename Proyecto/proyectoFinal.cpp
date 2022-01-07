@@ -179,6 +179,7 @@ int main()
 			printf("La opcion no es correcta\n");
 		}
 	} while (opcion != 4);
-
+	
+	system("pause");
 	return 0;
 }

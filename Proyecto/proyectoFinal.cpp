@@ -40,7 +40,7 @@ int main()
 				printf("ingrese lado...\n");
 				scanf("%f", &l);
 
-				printf("El area del cuadrado es: %.2f\n", areaCuadrado(l));
+				printf("El area del cuadrado es: %.2f\n\n\n", areaCuadrado(l));
 				break;
 			case 2:
 				printf("Ingrese base...\n");
@@ -48,7 +48,7 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &h);
 
-				printf("El area del rectangulo es: %.2f\n", areaRectangulo(b, h));
+				printf("El area del rectangulo es: %.2f\n\n\n", areaRectangulo(b, h));
 				break;
 			case 3:
 				printf("Ingrese base...\n");
@@ -56,14 +56,14 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &alturaTriangulo);
 
-				printf("El area del circulo es: %.2f\n", areaTriangulo(baseTriangulo, alturaTriangulo));
+				printf("El area del circulo es: %.2f\n\n\n", areaTriangulo(baseTriangulo, alturaTriangulo));
 
 				break;
 			case 4:
 				printf("Ingrese valor de radio...\n");
 				scanf("%f", &radio);
 
-				printf("El area del circulo es: %.2f\n", areaCirculo(pi, radio));
+				printf("El area del circulo es: %.2f\n\n\n", areaCirculo(pi, radio));
 
 				break;
 			default:
@@ -88,7 +88,7 @@ int main()
 				printf("Ingrese lado...\n");
 				scanf("%f", &lCubo);
 
-				printf("El volumen del Cubo es: %.2f dm^3\n", volumenCubo(lCubo));
+				printf("El volumen del Cubo es: %.2f dm^3\n\n\n", volumenCubo(lCubo));
 				break;
 			case 2:
 				printf("Ingrese area de la base...\n");
@@ -96,13 +96,13 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &hCilindro);
 
-				printf("El volumen del Cilindro: %.2f dm^3\n", volumenCilindro(aBase, hCilindro));
+				printf("El volumen del Cilindro: %.2f dm^3\n\n\n", volumenCilindro(aBase, hCilindro));
 				break;
 			case 3:
 				printf("Ingrese radio...\n");
 				scanf("%f", &rEsfera);
 
-				printf("El volumen de la Esfera es: %.2f dm^3\n", volumenEsfera(rEsfera));
+				printf("El volumen de la Esfera es: %.2f dm^3\n\n\n", volumenEsfera(rEsfera));
 				break;
 			case 4:
 				printf("Ingrese longitud...\n");
@@ -112,7 +112,7 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &hPrisma);
 
-				printf("El volumen del Prisma Rectangular recto es de: %.2f dm^3\n", volumenPrisma(lPrisma, wPrisma, hPrisma));
+				printf("El volumen del Prisma Rectangular recto es de: %.2f dm^3\n\n\n", volumenPrisma(lPrisma, wPrisma, hPrisma));
 				break;
 
 			default:
@@ -138,7 +138,7 @@ int main()
 				printf("Ingrese lado del Cuadrado...\n");
 				scanf("%f", &l);
 
-				printf("El perimetro del Cuadrado es de: %.2f cm\n", distanciaCuadrado(l));
+				printf("El perimetro del Cuadrado es de: %.2f cm\n\n\n", distanciaCuadrado(l));
 				break;
 			case 2:
 				printf("Ingrese base...\n");
@@ -146,7 +146,7 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &h);
 
-				printf("El perimetro del Rectangulo es de: %.2f cm\n", distanciaRectangulo(b, h));
+				printf("El perimetro del Rectangulo es de: %.2f cm\n\n\n", distanciaRectangulo(b, h));
 				break;
 			case 3:
 				printf("Ingrese lado de trinagulo...\n");
@@ -156,7 +156,7 @@ int main()
 				printf("Ingrese altura...\n");
 				scanf("%f", &alturaTriangulo);
 
-				printf("El perimetro del Triangulo es de: %.2f cm\n", distanciaTriangulo(lTriangulo, baseTriangulo, alturaTriangulo));
+				printf("El perimetro del Triangulo es de: %.2f cm\n\n\n", distanciaTriangulo(lTriangulo, baseTriangulo, alturaTriangulo));
 				break;
 			case 4:
 				printf("Ingrese radio...\n");
